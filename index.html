@@ -13,10 +13,10 @@
 
 <body>
     <nav class="navbar bg-body-tertiary bg-light d-flex flex-row justify-content-between px-5">
-            <a class="navbar-brand" href="#">
-                <i class="fa-brands fa-instagram"></i>
-                Instagram
-            </a>
+        <a class="navbar-brand" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            Instagram
+        </a>
         <div class="d-flex align-items-center gap-2">
 
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -56,7 +56,8 @@
                             <h6>Caption</h6>
                         </div>
                         <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
                             <label for="floatingTextarea">Add the caption of your post here</label>
                         </div>
                         <div class="d-flex mt-2 py-2">
@@ -76,7 +77,156 @@
             </div>
         </div>
 
+
     </nav>
+
+    <ul class="nav nav-tabs justify-content-center mt-3">
+
+        <li class="nav-item">
+            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#grid">
+                <i class="fa-solid fa-table-cells"></i>
+            </button>
+        </li>
+
+        <li class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#feed">
+                <i class="fa-solid fa-square"></i>
+            </button>
+        </li>
+
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="grid">
+            <div class="container mt-4">
+                <div class="row g-2">
+
+                    <div class="col-4">
+                        <img src="https://pbs.twimg.com/profile_images/1404443005826867200/53xs9_qN_400x400.jpg"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="https://i.pinimg.com/236x/2c/ec/71/2cec71161268a2ef69288b5a4a210587.jpg"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZf5c9CYU5SKCmTN70yj_jziIED-iy-qpGg&s"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="https://i.pinimg.com/236x/2e/a8/b9/2ea8b9733f68eac3425008286e4cca0c.jpg"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="https://i.pinimg.com/originals/6d/e4/0e/6de40e0e01d610de2e73b343400c5a1e.jpg"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="https://i.pinimg.com/564x/c7/e8/4c/c7e84c6117509f0af0fc6c5ad5296773.jpg"
+                            class="img-fluid" style=" width:100%; height: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="feed">
+            <div class="container mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>Cute cat</strong>
+                                <span>03/14</span>
+                            </div>
+
+                            <img src="https://pbs.twimg.com/profile_images/1404443005826867200/53xs9_qN_400x400.jpg"
+                                class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>Look at this cute kitten!</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>Mood today</strong>
+                                <span>02/15</span>
+                            </div>
+
+                            <img src="https://i.pinimg.com/236x/2c/ec/71/2cec71161268a2ef69288b5a4a210587.jpg" class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>Life is hard...</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>sideye</strong>
+                                <span>01/30</span>
+                            </div>
+
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZf5c9CYU5SKCmTN70yj_jziIED-iy-qpGg&s" class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>u are so sus</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>what did u say?</strong>
+                                <span>01/03</span>
+                            </div>
+
+                            <img src="https://i.pinimg.com/236x/2e/a8/b9/2ea8b9733f68eac3425008286e4cca0c.jpg" class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>dont talk to me</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>u making me blush</strong>
+                                <span>12/10</span>
+                            </div>
+
+                            <img src="https://i.pinimg.com/originals/6d/e4/0e/6de40e0e01d610de2e73b343400c5a1e.jpg" class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>STAAAAP</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4">
+                            <div class="card-header d-flex justify-content-between">
+                                <strong>yummy</strong>
+                                <span>11/21</span>
+                            </div>
+
+                            <img src="https://i.pinimg.com/564x/c7/e8/4c/c7e84c6117509f0af0fc6c5ad5296773.jpg" class="img-fluid" style=" width:100%; height: 100%;">
+
+                            <div class="card-body">
+                                <p>evil cat</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+
 
 
     <!-- JavaScript opcional -->
